@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+* {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 18px;
+  color: #540423;
+}
+
+#main {
+  background-color: #FCE8F0;
+  padding-left: 118px;
+  padding-right: 120px;
+  padding-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+input {
+  border-radius: 14px;
+  width: 245px;
+  height: 52px;
+  outline: none;
+  border: none;
+}
+input::placeholder {
+  color: #540423;
+  padding-left: 50px;
+}
+
+#partA {
+  font-weight: bold;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#partA div:nth-child(1) span {
+  font-size: 32.68px;
+  line-height: 43.23px;
+  letter-spacing: 1.5%;
+}
+#partA div:nth-child(1) span:nth-child(1) {
+  color: #FF0363;
+}
+#partA div:nth-child(1) span:nth-child(2) {
+  color: #540423;
+}
+#partA #input {
+  position: relative;
+}
+#partA #input img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  color: black;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.selectedNav {
+  font-weight: bold;
+}
+.selectedNav span {
+  color: #FF0363 !important;
+}
+.selectedNav span:nth-child(2) {
+  border-bottom: 3px solid #FF0363;
+  display: block;
+  border-radius: 16px;
+  width: 18px;
+}
+
+#partB {
+  padding-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  position: relative;
+}
+#partB nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+#partB nav div {
+  position: relative;
+}
+#partB nav div span {
+  display: block !important;
+}
+#partB #cart {
+  position: relative;
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+#partB #cart #bag {
+  height: 15px;
+  width: 15px;
+  object-fit: fill;
+  margin-right: 7px;
+}
+#partB #pinkDot {
+  position: absolute;
+  top: -2px;
+  left: 12px;
+  background-color: #FF0363;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+#partB #girl3 {
+  width: 30%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+#partB #girl3 img {
+  height: 47px;
+  width: 48px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-right: 10px;
+}
+#partB #girl3 i {
+  color: #FF0363;
+  font-size: 25px;
+}
+
+#body {
+  display: flex;
+}
+
+#header {
+  display: flex;
+  position: relative;
+}
+
+#bPart1 {
+  position: relative;
+  width: 30%;
+  text-align: left;
+  margin-top: 34px;
+  font-size: 71px;
+  line-height: 76px;
+  margin-bottom: 28px;
+}
+
+#bigTitle {
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 71px;
+  width: 443px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#bigTitle span {
+  font-size: 71px;
+  color: #FF0363 !important;
+}
+#bigTitle img {
+  height: 50px;
+  width: 50px;
+  object-fit: fill;
+  margin-left: 20px;
+}
+
+#smallText {
+  color: black;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#bt {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  margin-bottom: 52px;
+}
+#bt button {
+  outline: none;
+  height: 52px;
+  border: none;
+  border-radius: 16px;
+}
+#bt button:nth-child(1) {
+  margin-right: 22px;
+  background: #FF0363;
+  color: white;
+  width: 139px;
+}
+#bt button:nth-child(2) {
+  background: white;
+  color: black;
+  width: 117px;
+}
+
+#brands {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#textLogo {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#textLogo img {
+  width: 120px;
+  height: 66px;
+  object-fit: contain;
+}
+
+#bPart2 {
+  flex-grow: 1;
+}
+#bPart2 #mainImg {
+  width: 638px;
+  height: 601px;
+  border: 1px solid red;
+}
+#bPart2 #trapeze {
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid #FCE8F0;
+  position: absolute;
+  width: 442px;
+  background-color: #FFD2E2;
+  height: 582px;
+}
+
+/*# sourceMappingURL=euraka.css.map */
